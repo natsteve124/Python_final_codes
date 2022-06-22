@@ -2,12 +2,12 @@
 # It's a simple password decoder / breaker
 
 import random
-number = int(input("Input a number that is a password: "))
+number = int(input("Input a number that is a password: "))  # will generate a GUI.
 guess = 0
-while (guess != number):
-   guess = random.randint(0,9999)
-   print(guess)
-print("Your password is " + str(number))
+while (guess != number): # while loop that says
+   guess = random.randint(0,9999)  # will randomly look through 9999 number to find your password.
+   print(guess)  # will print the amount of numbers it randomly goes through.
+print("Your password is " + str(number))  # This prints the number you submitted as your password.
 
 # This code will run until it finds your password !!!
 # ----------------------------------------------------------------------------------------------------------

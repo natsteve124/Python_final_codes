@@ -27,3 +27,5 @@ while (guess != password):
 # I hope you enjoy this Justin try it out :)
 
 # this code was sited from Johnathan Karr on youtube https://www.youtube.com/watch?v=P5Lt8J3_ZnI
+# I will separate both programs using --------- so just comment the other one out when using the other so
+# there is no conflicts when running one or the other.
